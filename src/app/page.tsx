@@ -3,6 +3,7 @@ import FourthGraph from '@/components/recharts/FourthGraph';
 import SecondGraph from '@/components/recharts/SecondGraph';
 import ThirdGraph from '@/components/recharts/ThirdGraph';
 import WikiChanges from '@/components/wiki';
+import Wallet from '@/wallet';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <FourthGraph />
       </div>
       <WikiChanges />
+      <Wallet />
     </div>
   );
 }
